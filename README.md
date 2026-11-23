@@ -19,6 +19,16 @@
 - **编辑管理**：随时修改、删除、移动分类
 - **本地存储**：数据完全本地，SQLite 存数据 + 应用私有目录存图片，离线可用
 
+## 界面预览
+
+| 首页 | 分类 | 新建收藏 |
+|------|------|----------|
+| ![首页](docs/screenshots/home-list.jpg) | ![分类](docs/screenshots/category.jpg) | ![新建收藏](docs/screenshots/new-record.jpg) |
+
+| AI 设置 |
+|---------|
+| ![AI 设置](docs/screenshots/ai-settings.jpg) |
+
 ## 技术栈
 
 - Flutter（Dart 3）
