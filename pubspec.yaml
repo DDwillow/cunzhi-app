@@ -1,0 +1,46 @@
+name: cunzhi
+description: 存知 —— 记录、收纳、整理你的生活干货
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 数据库
+  sqflite: ^2.3.2
+  path: ^1.9.0
+
+  # 图片选择 / 相机
+  image_picker: ^1.0.7
+
+  # 路径
+  path_provider: ^2.1.2
+
+  # 状态管理（轻量，用 provider）
+  provider: ^6.1.1
+
+  # 图标
+  cupertino_icons: ^1.0.6
+
+  # AI 接口调用
+  http: ^1.2.0
+
+  # 本地键值存储（存 API Key）
+  shared_preferences: ^2.2.2
+
+  # 本地 OCR 文字识别（ML Kit，离线免费）
+  google_mlkit_text_recognition: ^0.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 与 App 暖色主题背景一致（#FAF7F2），消除启动白屏闪烁 -->
+    <color name="launch_background">#FAF7F2</color>
+</resources>
